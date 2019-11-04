@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.902
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "openSmileLibClassif", "openSmileLibClassif\openSmileLibClassif.vcxproj", "{05229CAC-B20A-4C4A-9740-CFAF8B07844C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "openSmileLibLibsvm", "openSmileLibLibsvm\openSmileLibLibsvm.vcxproj", "{5E166A47-D0F3-4E61-BF3D-921927096998}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "openSmileLib", "openSmileLib\openSmileLib.vcxproj", "{18709CAC-05C0-4502-A4AE-4596D95B6011}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5E166A47-D0F3-4E61-BF3D-921927096998} = {5E166A47-D0F3-4E61-BF3D-921927096998}
+		{05229CAC-B20A-4C4A-9740-CFAF8B07844C} = {05229CAC-B20A-4C4A-9740-CFAF8B07844C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SMILExtract", "SMILExtract\SMILExtract.vcxproj", "{A66876AD-8A36-4668-94F9-EDAD0D2DAB28}"
+	ProjectSection(ProjectDependencies) = postProject
+		{18709CAC-05C0-4502-A4AE-4596D95B6011} = {18709CAC-05C0-4502-A4AE-4596D95B6011}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05229CAC-B20A-4C4A-9740-CFAF8B07844C}.Debug|x64.ActiveCfg = Debug|x64
+		{05229CAC-B20A-4C4A-9740-CFAF8B07844C}.Debug|x64.Build.0 = Debug|x64
+		{05229CAC-B20A-4C4A-9740-CFAF8B07844C}.Debug|x86.ActiveCfg = Debug|Win32
+		{05229CAC-B20A-4C4A-9740-CFAF8B07844C}.Debug|x86.Build.0 = Debug|Win32
+		{05229CAC-B20A-4C4A-9740-CFAF8B07844C}.Release|x64.ActiveCfg = Release|x64
+		{05229CAC-B20A-4C4A-9740-CFAF8B07844C}.Release|x64.Build.0 = Release|x64
+		{05229CAC-B20A-4C4A-9740-CFAF8B07844C}.Release|x86.ActiveCfg = Release|Win32
+		{05229CAC-B20A-4C4A-9740-CFAF8B07844C}.Release|x86.Build.0 = Release|Win32
+		{5E166A47-D0F3-4E61-BF3D-921927096998}.Debug|x64.ActiveCfg = Debug|x64
+		{5E166A47-D0F3-4E61-BF3D-921927096998}.Debug|x64.Build.0 = Debug|x64
+		{5E166A47-D0F3-4E61-BF3D-921927096998}.Debug|x86.ActiveCfg = Debug|Win32
+		{5E166A47-D0F3-4E61-BF3D-921927096998}.Debug|x86.Build.0 = Debug|Win32
+		{5E166A47-D0F3-4E61-BF3D-921927096998}.Release|x64.ActiveCfg = Release|x64
+		{5E166A47-D0F3-4E61-BF3D-921927096998}.Release|x64.Build.0 = Release|x64
+		{5E166A47-D0F3-4E61-BF3D-921927096998}.Release|x86.ActiveCfg = Release|Win32
+		{5E166A47-D0F3-4E61-BF3D-921927096998}.Release|x86.Build.0 = Release|Win32
+		{18709CAC-05C0-4502-A4AE-4596D95B6011}.Debug|x64.ActiveCfg = Debug|x64
+		{18709CAC-05C0-4502-A4AE-4596D95B6011}.Debug|x64.Build.0 = Debug|x64
+		{18709CAC-05C0-4502-A4AE-4596D95B6011}.Debug|x86.ActiveCfg = Debug|Win32
+		{18709CAC-05C0-4502-A4AE-4596D95B6011}.Debug|x86.Build.0 = Debug|Win32
+		{18709CAC-05C0-4502-A4AE-4596D95B6011}.Release|x64.ActiveCfg = Release|x64
+		{18709CAC-05C0-4502-A4AE-4596D95B6011}.Release|x64.Build.0 = Release|x64
+		{18709CAC-05C0-4502-A4AE-4596D95B6011}.Release|x86.ActiveCfg = Release|Win32
+		{18709CAC-05C0-4502-A4AE-4596D95B6011}.Release|x86.Build.0 = Release|Win32
+		{A66876AD-8A36-4668-94F9-EDAD0D2DAB28}.Debug|x64.ActiveCfg = Debug|x64
+		{A66876AD-8A36-4668-94F9-EDAD0D2DAB28}.Debug|x64.Build.0 = Debug|x64
+		{A66876AD-8A36-4668-94F9-EDAD0D2DAB28}.Debug|x86.ActiveCfg = Debug|Win32
+		{A66876AD-8A36-4668-94F9-EDAD0D2DAB28}.Debug|x86.Build.0 = Debug|Win32
+		{A66876AD-8A36-4668-94F9-EDAD0D2DAB28}.Release|x64.ActiveCfg = Release|x64
+		{A66876AD-8A36-4668-94F9-EDAD0D2DAB28}.Release|x64.Build.0 = Release|x64
+		{A66876AD-8A36-4668-94F9-EDAD0D2DAB28}.Release|x86.ActiveCfg = Release|Win32
+		{A66876AD-8A36-4668-94F9-EDAD0D2DAB28}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D7E261F0-B5F5-46F8-8731-3112B46B6A98}
+	EndGlobalSection
+EndGlobal

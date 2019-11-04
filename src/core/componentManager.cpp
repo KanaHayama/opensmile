@@ -436,7 +436,7 @@ int cComponentManager::registerPlugins()
             SMILE_PRINT(" plugin '%s' : '%s'",c->componentName,c->description);
           }
 
-          sComponentInfo *nextc;
+          sComponentInfo *nextc = nullptr;
           if (c!=NULL) nextc = c->next;
 
           int t = registerComponent( c, 1 );

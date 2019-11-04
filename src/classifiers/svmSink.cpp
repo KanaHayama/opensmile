@@ -187,7 +187,7 @@ char ** smileSvmModel::parseClassnames(char * line, int nClasses)
 {
   char ** cln = NULL;
   char * c = strchr(line, ',');
-  char * ln;
+  char * ln = nullptr;
   int i;
 
   if (c!=NULL) {

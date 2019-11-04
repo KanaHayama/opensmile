@@ -451,7 +451,7 @@ int cTonespec::processVectorFloat(const FLOAT_DMEM *src, FLOAT_DMEM *dst, long N
 
 
   // copy & square the fft magnitude
-  FLOAT_DMEM *_src;
+  FLOAT_DMEM *_src = nullptr;
   if (usePower) {
     _src = (FLOAT_DMEM*)malloc(sizeof(FLOAT_DMEM)*Nsrc);
     if (src==NULL) OUT_OF_MEMORY;
