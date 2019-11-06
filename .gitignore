@@ -17,9 +17,6 @@
 /Makefile.in
 /configure
 
-# opensmile executable
-#SMILExtract
-
 # generated .m4 macro files
 /aclocal.m4
 /m4/libtool.m4
