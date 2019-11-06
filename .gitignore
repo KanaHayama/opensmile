@@ -18,7 +18,7 @@
 /configure
 
 # opensmile executable
-SMILExtract
+#SMILExtract
 
 # generated .m4 macro files
 /aclocal.m4
