@@ -64,6 +64,7 @@ bld/
 [Bb]in/
 [Oo]bj/
 [Ll]og/
+.vs
 
 # VS User-specific files
 *.suo
